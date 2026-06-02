@@ -1,0 +1,16 @@
+{
+  "itemGroup.practicalspell": "Example Mod Tab",
+  "block.practicalspell.example_block": "Example Block",
+  "item.practicalspell.example_item": "Example Item",
+
+  "practicalspell.configuration.title": "Practical spell Configs",
+  "practicalspell.configuration.section.practicalspell.common.toml": "Practical spell Configs",
+  "practicalspell.configuration.section.practicalspell.common.toml.title": "Practical spell Configs",
+  "practicalspell.configuration.items": "Item List",
+  "practicalspell.configuration.logDirtBlock": "Log Dirt Block",
+  "practicalspell.configuration.magicNumberIntroduction": "Magic Number Text",
+  "practicalspell.configuration.magicNumber": "Magic Number",
+
+  "key.categories.practicalspell": "Practical Spell",
+  "key.practicalspell.draw": "Draw"
+}

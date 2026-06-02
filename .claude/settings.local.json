@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/zyo_1/Desktop/dollar/$1//**)",
+      "Read(//c/Users/zyo_1/Desktop/**)",
+      "Bash(dir \"C:\\\\Users\\\\zyo_1\\\\Desktop\\\\dollar\\\\$1\")"
+    ]
+  }
+}
