@@ -24,6 +24,10 @@ public class DollarRecognizer {
         templates.add(new Unistroke(name, rawPoints));
     }
 
+    public void addTemplate(Unistroke unistroke){
+        templates.add(unistroke);
+    }
+
     public void clearTemplates() {
         templates.clear();
     }

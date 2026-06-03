@@ -1,6 +1,6 @@
 package com.glo.practicalspell.server;
 
-import com.glo.practicalspell.CastSpellPayload;
+import com.glo.practicalspell.network.CastSpellPayload;
 import com.glo.practicalspell.spells.Spell;
 import com.glo.practicalspell.spells.SpellFactory;
 import net.minecraft.network.chat.Component;

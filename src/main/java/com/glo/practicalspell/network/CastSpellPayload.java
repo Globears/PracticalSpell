@@ -1,4 +1,6 @@
-package com.glo.practicalspell;
+package com.glo.practicalspell.network;
+
+import com.glo.practicalspell.Practicalspell;
 
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.codec.ByteBufCodecs;

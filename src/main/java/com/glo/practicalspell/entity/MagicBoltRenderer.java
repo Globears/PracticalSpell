@@ -1,6 +1,5 @@
-package com.glo.practicalspell.client;
+package com.glo.practicalspell.entity;
 
-import com.glo.practicalspell.entity.MagicBolt;
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRenderer;

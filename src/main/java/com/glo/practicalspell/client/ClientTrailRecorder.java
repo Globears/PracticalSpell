@@ -10,6 +10,10 @@ import java.util.List;
 
 public class ClientTrailRecorder {
 
+    public record TrailPoint(double dYaw, double dPitch) {
+        
+    }
+
     private static final int MAX_POINTS = 5000;
 
     private boolean drawing;
