@@ -12,5 +12,6 @@
   "practicalspell.configuration.magicNumber": "Magic Number",
 
   "key.categories.practicalspell": "Practical Spell",
-  "key.practicalspell.draw": "Draw"
+  "key.practicalspell.draw": "Draw",
+  "key.practicalspell.desaturate": "Desaturate"
 }

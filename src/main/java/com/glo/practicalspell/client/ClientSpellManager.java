@@ -75,6 +75,16 @@ public class ClientSpellManager {
         if (results.isEmpty()) return;
 
         Result best = results.get(0);
+
+        if ("zig-zag".equals(best.name())) {
+            DesaturateHandler.toggle();
+            player.displayClientMessage(
+                    Component.literal(DesaturateHandler.isActive() ? "Ether: ON" : "Ether: OFF"),
+                    true
+            );
+            return;
+        }
+
         player.displayClientMessage(
                 Component.literal("Spell: " + best.name() + "  score: " + String.format("%.3f", best.score())),
                 true
