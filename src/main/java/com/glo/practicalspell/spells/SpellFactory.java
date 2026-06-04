@@ -14,13 +14,15 @@ public class SpellFactory {
         register("circle", CircleSpell::new);
         register("triangle", TriangleSpell::new);
         register("star", StarSpell::new);
+        register("rectangle", TntSpell::new);
+        register("pigtail", JetSpell::new);
         // later: register("poison", () -> POISON_SINGLETON);
         // stateful spells: fresh instance per cast
         // later: register("shield", ShieldSpell::new);
     }
 
-    public static void register(String name, Supplier<Spell> supplier) {
-        spells.put(name, supplier);
+    public static void register(String gestureName, Supplier<Spell> supplier) {
+        spells.put(gestureName, supplier);
     }
 
     public static Spell create(String name) {
